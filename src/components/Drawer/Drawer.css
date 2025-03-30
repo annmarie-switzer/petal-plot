@@ -1,0 +1,86 @@
+:root {
+  --drag-bg: var(--sand-6);
+  --drag-hover-bg: var(--sand-7);
+  --handle-size: 3px;
+  --tab-small: 15px;
+  --tab-large: 60px;
+  --tab-radius: 4px;
+}
+
+.drawer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--sand-2);
+
+  &.left {
+    height: 100%;
+    top: 0;
+  }
+
+  &.bottom {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.drag-handle {
+  background-color: var(--sand-6);
+  user-select: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  &.left {
+    width: var(--handle-size);
+    height: 100%;
+    cursor: col-resize;
+  }
+
+  &.bottom {
+    width: 100%;
+    height: var(--handle-size);
+    cursor: row-resize;
+  }
+
+  &:hover {
+    background-color: var(--drag-hover-bg);
+  }
+}
+
+.drag-tab {
+  position: absolute;
+  background-color: var(--drag-bg);
+  cursor: grab;
+  user-select: none;
+
+  &.left {
+    left: calc(var(--tab-small) / -1);
+    top: 50%;
+    transform: translateY(-50%);
+    width: var(--tab-small);
+    height: var(--tab-large);
+    border-radius: var(--tab-radius) 0 0 var(--tab-radius);
+  }
+
+  &.bottom {
+    top: calc(var(--tab-small) / -1);
+    left: 50%;
+    transform: translateX(-50%);
+    width: var(--tab-large);
+    height: var(--tab-small);
+    border-radius: var(--tab-radius) var(--tab-radius) 0 0;
+  }
+
+  &:hover {
+    background-color: var(--drag-hover-bg);
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.drawer-content {
+  border: solid red;
+}

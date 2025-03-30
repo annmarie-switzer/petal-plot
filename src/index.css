@@ -25,19 +25,45 @@
 @import '@radix-ui/colors/mauve.css';
 @import '@radix-ui/colors/mauve-dark.css';
 
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  position: relative;
-  background-color: var(--sand-2);
-  color: var(--sand-11);
-  font-family: 'Nunito', sans-serif;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-h1 {
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--sand-1);
+  color: var(--sand-12);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  border: solid red 5px;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: solid blue 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Delius Swash Caps', cursive;
+  margin: 0;
 }
 
 button {
@@ -60,4 +86,27 @@ button:hover {
 
 button:active {
   background-color: var(--sand-5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--sand-6);
+}
+
+.square {
+  fill: var(--sand-6);
+  stroke-width: 0.5px;
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.square:hover {
+  fill: var(--sand-8);
+}
+
+.square.selected {
+  fill: var(--grass-9);
 }
