@@ -2,15 +2,15 @@ import { useState, useEffect } from 'react';
 import { ThemeToggle } from '../ThemeToggle';
 import './Drawer.css';
 
-type Position = 'left' | 'bottom';
+export type DrawerPosition = 'left' | 'bottom';
 
 interface DrawerProps {
-  defaultPosition: Position;
+  defaultPosition: DrawerPosition;
 }
 
 export const Drawer = ({ defaultPosition }: DrawerProps) => {
   const [isDragging, setIsDragging] = useState(false);
-  const [position, setPosition] = useState<Position>(defaultPosition);
+  const [position, setPosition] = useState<DrawerPosition>(defaultPosition);
 
   const [width, setWidth] = useState(300);
   const [height, setHeight] = useState(300);
@@ -55,6 +55,13 @@ export const Drawer = ({ defaultPosition }: DrawerProps) => {
     );
   };
 
+  const changePosition = () => {
+    const newPosition = position === 'left' ? 'bottom' : 'left';
+
+    localStorage.setItem('drawerPosition', newPosition);
+    setPosition(newPosition);
+  };
+
   const drawerStyle = position === 'left' ? { width } : { height };
 
   return (
@@ -68,11 +75,7 @@ export const Drawer = ({ defaultPosition }: DrawerProps) => {
       />
       <div className={`drag-tab ${position}`} onMouseDown={handleDragStart} />
       <div className="drawer-content">
-        <button
-          onClick={() => setPosition(position === 'left' ? 'bottom' : 'left')}
-        >
-          Change Position
-        </button>
+        <button onClick={changePosition}>Change Position</button>
         <ThemeToggle />
       </div>
     </div>

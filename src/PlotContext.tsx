@@ -19,32 +19,27 @@ export const PlotProvider = ({ children }: { children: React.ReactNode }) => {
     return rawPlots ? JSON.parse(rawPlots) : {};
   });
 
-  const getPlot = (plotId: string) => plots[plotId];
-
-  const upsertPlot = (newPlot: Plot) => {
-    const newPlots = {
-      ...plots,
-      [newPlot.id]: newPlot,
-    };
-
-    setPlots(newPlots);
-  };
-
-  const deletePlot = (plotId: string) => {
-    const newPlots = { ...plots };
-    delete newPlots[plotId];
-    setPlots(newPlots);
+  const value = {
+    plots,
+    getPlot: (plotId: string) => plots[plotId],
+    upsertPlot: (newPlot: Plot) => {
+      setPlots({
+        ...plots,
+        [newPlot.id]: newPlot,
+      });
+    },
+    deletePlot: (plotId: string) => {
+      const newPlots = { ...plots };
+      delete newPlots[plotId];
+      setPlots(newPlots);
+    },
   };
 
   useEffect(() => {
     localStorage.setItem('plots', JSON.stringify(plots));
   }, [plots]);
 
-  return (
-    <PlotContext.Provider value={{ plots, getPlot, upsertPlot, deletePlot }}>
-      {children}
-    </PlotContext.Provider>
-  );
+  return <PlotContext.Provider value={value}>{children}</PlotContext.Provider>;
 };
 
 export const usePlots = () => {
