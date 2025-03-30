@@ -1,4 +1,14 @@
+export interface Plot {
+  id: string;
+  name: string;
+  width: number;
+  height: number;
+  numSquares: number;
+  plants: Record<number, Plant>;
+}
+
 export interface Plant {
+  id: string;
   name: string;
   bloomPeriod: BloomPeriod;
   color: FlowerColor;

@@ -1,6 +1,4 @@
 :root {
-  --drag-bg: var(--sand-6);
-  --drag-hover-bg: var(--sand-7);
   --handle-size: 3px;
   --tab-small: 15px;
   --tab-large: 60px;
@@ -44,13 +42,13 @@
   }
 
   &:hover {
-    background-color: var(--drag-hover-bg);
+    background-color: var(--sand-7);
   }
 }
 
 .drag-tab {
   position: absolute;
-  background-color: var(--drag-bg);
+  background-color: var(--sand-6);
   cursor: grab;
   user-select: none;
 
@@ -73,7 +71,7 @@
   }
 
   &:hover {
-    background-color: var(--drag-hover-bg);
+    background-color: var(--sand-7);
   }
 
   &:active {

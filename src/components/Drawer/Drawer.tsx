@@ -1,9 +1,16 @@
 import { useState, useEffect } from 'react';
+import { ThemeToggle } from '../ThemeToggle';
 import './Drawer.css';
 
-export const Drawer = () => {
+type Position = 'left' | 'bottom';
+
+interface DrawerProps {
+  defaultPosition: Position;
+}
+
+export const Drawer = ({ defaultPosition }: DrawerProps) => {
   const [isDragging, setIsDragging] = useState(false);
-  const [position, setPosition] = useState<'left' | 'bottom'>('left');
+  const [position, setPosition] = useState<Position>(defaultPosition);
 
   const [width, setWidth] = useState(300);
   const [height, setHeight] = useState(300);
@@ -66,6 +73,7 @@ export const Drawer = () => {
         >
           Change Position
         </button>
+        <ThemeToggle />
       </div>
     </div>
   );
