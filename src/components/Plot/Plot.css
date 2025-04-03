@@ -1,0 +1,14 @@
+.square {
+  fill: var(--sand-6);
+  stroke-width: 0.5px;
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.square:hover {
+  fill: var(--sand-8);
+}
+
+.square.selected {
+  fill: var(--grass-9);
+}

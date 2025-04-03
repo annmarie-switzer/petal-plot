@@ -10,22 +10,31 @@ export interface Plot {
 export interface Plant {
   id: string;
   name: string;
+  colors: FlowerColor[];
+  lifecycle: PlantLifecycle;
+  zones: number[];
   bloomPeriod: BloomPeriod;
-  color: FlowerColor;
+}
+
+export enum PlantLifecycle {
+  Annual = 'annual',
+  Perennial = 'perennial',
 }
 
 export enum FlowerColor {
   Red = 'red',
-  Pink = 'pink',
   Orange = 'orange',
   Yellow = 'yellow',
   Green = 'green',
   Blue = 'blue',
-  Purple = 'purple',
+  Indigo = 'indigo',
+  Violet = 'violet',
   White = 'white',
+  Pink = 'pink',
+  Other = 'other',
 }
 
-// Week numbers (1-26) corresponding to May 1 - Oct 31
+// Week numbers (1-26) corresponding to Apr 1 - Oct 31
 export interface BloomPeriod {
   startWeek: number;
   peakStartWeek: number;

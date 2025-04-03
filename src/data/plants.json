@@ -1,0 +1,3581 @@
+[
+  {
+    "id": "achillea-millefolium",
+    "name": "Achillea millefolium",
+    "colors": ["red", "yellow", "white", "pink", "other"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "aconitum-carmichaelii",
+    "name": "Aconitum carmichaelii",
+    "colors": ["blue", "violet"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "aconitum-napellus",
+    "name": "Aconitum napellus",
+    "colors": ["blue", "violet"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "actaea-pachypoda",
+    "name": "Actaea pachypoda",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "actaea-rubra",
+    "name": "Actaea rubra",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "ageratum-houstonianum",
+    "name": "Ageratum houstonianum",
+    "colors": ["blue", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "ajuga-reptans",
+    "name": "Ajuga reptans",
+    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "alcea-rosea",
+    "name": "Alcea rosea",
+    "colors": ["red", "yellow", "violet", "white", "pink"],
+    "lifecycle": "",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "alchemilla-sp.",
+    "name": "Alchemilla sp.",
+    "colors": ["yellow", "green"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "allium-aflatunense",
+    "name": "Allium aflatunense",
+    "colors": ["violet", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "allium-caeruleum",
+    "name": "Allium caeruleum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "allium-cristophii",
+    "name": "Allium cristophii",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "allium-cristophii-x-macleanii-'globemaster'",
+    "name": "Allium cristophii x macleanii 'Globemaster'",
+    "colors": ["blue", "violet"],
+    "lifecycle": "perennial",
+    "zones": [6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "allium-giganteum",
+    "name": "Allium giganteum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "allium-moly",
+    "name": "Allium moly",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "allium-oreophilum",
+    "name": "Allium oreophilum",
+    "colors": ["red", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "allium-schoenoprasum",
+    "name": "Allium schoenoprasum",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "alyssum-argenteum",
+    "name": "Alyssum argenteum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "amaranthus-caudatus",
+    "name": "Amaranthus caudatus",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "amsonia-tabernaemontana",
+    "name": "Amsonia tabernaemontana",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "anaphalis-sp.",
+    "name": "Anaphalis sp.",
+    "colors": ["yellow", "white"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "anchusa-azurea",
+    "name": "Anchusa azurea",
+    "colors": ["blue", "violet"],
+    "lifecycle": "",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "anemone-blanda",
+    "name": "Anemone blanda",
+    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "anemone-x-hybrida",
+    "name": "Anemone x hybrida",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "angelica-archangelica",
+    "name": "Angelica archangelica",
+    "colors": ["green", "white"],
+    "lifecycle": "",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "angelonia-angustifolia",
+    "name": "Angelonia angustifolia",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "anthemis-tinctoria",
+    "name": "Anthemis tinctoria",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "antirrhinum-majus",
+    "name": "Antirrhinum majus",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "antirrhinum-majus-(dwarf)",
+    "name": "Antirrhinum majus (dwarf)",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "aquilegia-canadensis",
+    "name": "Aquilegia canadensis",
+    "colors": ["red", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "aquilegia-x-hybrida",
+    "name": "Aquilegia x hybrida",
+    "colors": ["red", "yellow", "blue", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "arabis-caucasica",
+    "name": "Arabis caucasica",
+    "colors": ["white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "arctotis-hybrida",
+    "name": "Arctotis hybrida",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "aruncus-dioicus",
+    "name": "Aruncus dioicus",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "arisaema-triphyllum",
+    "name": "Arisaema triphyllum",
+    "colors": ["green", "violet"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "armeria-maritima",
+    "name": "Armeria maritima",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "artemisia-absinthium",
+    "name": "Artemisia absinthium",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "artemisia-lactiflora",
+    "name": "Artemisia lactiflora",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "artemisia-x-'powis-castle'",
+    "name": "Artemisia x 'Powis Castle'",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "artemisia-schmidtiana",
+    "name": "Artemisia schmidtiana",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "asarum-sp.",
+    "name": "Asarum sp.",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "asclepias-tuberosa",
+    "name": "Asclepias tuberosa",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "asphodeline-lutea",
+    "name": "Asphodeline lutea",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "aster-alpinus",
+    "name": "Aster alpinus",
+    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "aster-novi-angliae",
+    "name": "Aster novi-angliae",
+    "colors": ["red", "blue", "indigo", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "aster-novi-belgi-tall-varieties",
+    "name": "Aster novi-belgi tall varieties",
+    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "aster-x-frikartii",
+    "name": "Aster x frikartii",
+    "colors": ["yellow", "blue"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "astilbe-chinensis",
+    "name": "Astilbe chinensis",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "astilbe-x-arendsii",
+    "name": "Astilbe x arendsii",
+    "colors": ["red", "orange", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "aubrieta-deltoidea",
+    "name": "Aubrieta deltoidea",
+    "colors": ["red", "violet", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "aurinia-saxatilis",
+    "name": "Aurinia saxatilis",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "baptisia-alba",
+    "name": "Baptisia alba",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "baptisia-australis",
+    "name": "Baptisia australis",
+    "colors": ["blue", "indigo"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "begonia-x-semperflorens-cultorum",
+    "name": "Begonia x semperflorens-cultorum",
+    "colors": ["red", "white", "pink", "other"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "begonia-x-tuberhybrida-pendulous-cultivars",
+    "name": "Begonia x tuberhybrida pendulous cultivars",
+    "colors": ["red", "orange", "yellow", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "begonia-x-tuberhybrida-upright-cultivars",
+    "name": "Begonia x tuberhybrida upright cultivars",
+    "colors": ["red", "orange", "yellow", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "belamcanda-chinensis",
+    "name": "Belamcanda chinensis",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "bergenia-cordifolia",
+    "name": "Bergenia cordifolia",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "boltonia-asteroides",
+    "name": "Boltonia asteroides",
+    "colors": ["yellow", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "brassica-oleracea-var-acephala",
+    "name": "Brassica oleracea var acephala",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "brassica-oleracea-var-capitata",
+    "name": "Brassica oleracea var capitata",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "browallia-speciosa",
+    "name": "Browallia speciosa",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "brunnera-macrophylla",
+    "name": "Brunnera macrophylla",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "caladium-bicolor",
+    "name": "Caladium bicolor",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "calendula-officinalis",
+    "name": "Calendula officinalis",
+    "colors": ["orange", "yellow", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "callirhoe-involucrata",
+    "name": "Callirhoe involucrata",
+    "colors": ["red", "violet"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "campanula-glomerata",
+    "name": "Campanula glomerata",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "campanula-latifolia",
+    "name": "Campanula latifolia",
+    "colors": ["violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "campanula-medium",
+    "name": "Campanula medium",
+    "colors": ["blue", "violet", "white", "pink"],
+    "lifecycle": "",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "campanula-persicifolia",
+    "name": "Campanula persicifolia",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "campanula-poscharskyana",
+    "name": "Campanula poscharskyana",
+    "colors": ["blue", "indigo", "violet"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "canna-sp.",
+    "name": "Canna sp.",
+    "colors": ["red", "orange", "yellow", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "capsicum-annuum-(ornamental)",
+    "name": "Capsicum annuum (ornamental)",
+    "colors": ["white", "inconspicuous"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "cassia-marilandica",
+    "name": "Cassia marilandica",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "catharanthus-roseus",
+    "name": "Catharanthus roseus",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "celosia-argentea-var-cristata",
+    "name": "Celosia argentea var cristata",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "celosia-argentea-var-plumosa",
+    "name": "Celosia argentea var plumosa",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "celosia-spicata",
+    "name": "Celosia spicata",
+    "colors": ["violet", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "centranthus-ruber",
+    "name": "Centranthus ruber",
+    "colors": ["red", "blue", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "cerastium-tomentosum",
+    "name": "Cerastium tomentosum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "ceratostigma-plumbaginoides",
+    "name": "Ceratostigma plumbaginoides",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "cimicifuga-racemosa",
+    "name": "Cimicifuga racemosa",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "cimicifuga-simplex",
+    "name": "Cimicifuga simplex",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 22,
+      "peakStartWeek": 23,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "chionodoxa-luciliae",
+    "name": "Chionodoxa luciliae",
+    "colors": ["blue", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "cleome-hasslerana",
+    "name": "Cleome hasslerana",
+    "colors": ["yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "cobaea-scandens",
+    "name": "Cobaea scandens",
+    "colors": ["green", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "convallaria-majalis",
+    "name": "Convallaria majalis",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [2, 3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "coreopsis-lanceolata",
+    "name": "Coreopsis lanceolata",
+    "colors": ["orange", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "coreopsis-tinctoria",
+    "name": "Coreopsis tinctoria",
+    "colors": ["red", "orange", "yellow", "other"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "coreopsis-verticillata",
+    "name": "Coreopsis verticillata",
+    "colors": ["orange", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "corydalis-lutea",
+    "name": "Corydalis lutea",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "cosmos-bipinnatus",
+    "name": "Cosmos bipinnatus",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "cosmos-sulphureus",
+    "name": "Cosmos sulphureus",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "crocus-sp.",
+    "name": "Crocus sp.",
+    "colors": ["orange", "yellow", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "cyclamen-coum",
+    "name": "Cyclamen coum",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "cypripedium-acaule",
+    "name": "Cypripedium acaule",
+    "colors": ["white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "dahlia-sp.-(bedding)",
+    "name": "Dahlia sp. (bedding)",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "dahlia-sp.-(tall)",
+    "name": "Dahlia sp. (tall)",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "delphinium-sp.-belladonna-group",
+    "name": "Delphinium sp. Belladonna Group",
+    "colors": ["blue", "indigo", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "delphinium-sp.-elatum-group",
+    "name": "Delphinium sp. Elatum Group",
+    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "dianthus-deltoides",
+    "name": "Dianthus deltoides",
+    "colors": ["red", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "dianthus-sp.-(border-pinks)",
+    "name": "Dianthus sp. (Border Pinks)",
+    "colors": ["red", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "diascia-barbaerae",
+    "name": "Diascia barbaerae",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "dicentra-cucullaria",
+    "name": "Dicentra cucullaria",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "dicentra-eximia",
+    "name": "Dicentra eximia",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "dicentra-spectablis",
+    "name": "Dicentra spectablis",
+    "colors": ["white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "dictamnus-albus",
+    "name": "Dictamnus albus",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "digitalis-grandiflora",
+    "name": "Digitalis grandiflora",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "digitalis-purpurea",
+    "name": "Digitalis purpurea",
+    "colors": ["yellow", "violet", "white", "pink"],
+    "lifecycle": "",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "dodecatheon-meadia",
+    "name": "Dodecatheon meadia",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "doronicum-spp.",
+    "name": "Doronicum spp.",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "echinacea-purpurea",
+    "name": "Echinacea purpurea",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "echinops-ritro",
+    "name": "Echinops ritro",
+    "colors": ["blue", "violet"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "epimedium-grandiflorum",
+    "name": "Epimedium grandiflorum",
+    "colors": ["yellow", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "epimedium-x-rubrum",
+    "name": "Epimedium x rubrum",
+    "colors": ["red", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "eranthis-hyemalis",
+    "name": "Eranthis hyemalis",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "erigeron-speciosus",
+    "name": "Erigeron speciosus",
+    "colors": ["orange", "yellow", "blue", "indigo", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [2, 3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "erythronium-americanum",
+    "name": "Erythronium americanum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "eschscholzia-californica",
+    "name": "Eschscholzia californica",
+    "colors": ["red", "orange", "yellow", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "eucomis-bicolor",
+    "name": "Eucomis bicolor",
+    "colors": ["green", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "eupatorium-perfoliatum",
+    "name": "Eupatorium perfoliatum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "euphorbia-griffithii",
+    "name": "Euphorbia griffithii",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "euphorbia-myrsinites",
+    "name": "Euphorbia myrsinites",
+    "colors": ["yellow", "green"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "euphorbia-polychroma",
+    "name": "Euphorbia polychroma",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "filipendula-rubra",
+    "name": "Filipendula rubra",
+    "colors": ["pink", "other"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "foeniculum-vulgare",
+    "name": "Foeniculum vulgare",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "fritillaria-imperialis",
+    "name": "Fritillaria imperialis",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "fritillaria-meleagris",
+    "name": "Fritillaria meleagris",
+    "colors": ["violet", "white", "other"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "gaillardia-pulchella",
+    "name": "Gaillardia pulchella",
+    "colors": ["red", "orange", "yellow", "violet", "other"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "galanthus-nivalis",
+    "name": "Galanthus nivalis",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "galium-odoratum",
+    "name": "Galium odoratum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "gaura-lindheimeri",
+    "name": "Gaura lindheimeri",
+    "colors": ["white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "gazania-ringens",
+    "name": "Gazania ringens",
+    "colors": ["red", "orange", "yellow", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "geranium-endressei",
+    "name": "Geranium endressei",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "geranium-himalayense",
+    "name": "Geranium himalayense",
+    "colors": ["blue", "indigo", "violet"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "geranium-macrorrhizum",
+    "name": "Geranium macrorrhizum",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "geranium-maculatum",
+    "name": "Geranium maculatum",
+    "colors": ["violet", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "geum-quellyon",
+    "name": "Geum quellyon",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "gomphrena-globosa",
+    "name": "Gomphrena globosa",
+    "colors": ["orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "helianthemum-nummularium",
+    "name": "Helianthemum nummularium",
+    "colors": ["orange", "yellow", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "heliotropium-arborescens",
+    "name": "Heliotropium arborescens",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "hemerocallis-altissima",
+    "name": "Hemerocallis altissima",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "hemerocallis-fulva",
+    "name": "Hemerocallis fulva",
+    "colors": ["red", "orange", "yellow", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "hepatica-nobilis",
+    "name": "Hepatica nobilis",
+    "colors": ["blue", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 5,
+      "endWeek": 6
+    }
+  },
+  {
+    "id": "hesperis-matronalis",
+    "name": "Hesperis matronalis",
+    "colors": ["violet", "white"],
+    "lifecycle": "",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "hosta-crispula",
+    "name": "Hosta crispula",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "hosta-lancifolia",
+    "name": "Hosta lancifolia",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "hosta-plantaginea",
+    "name": "Hosta plantaginea",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "hosta-sieboldiana",
+    "name": "Hosta sieboldiana",
+    "colors": ["violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "hypoestes-phyllostachya",
+    "name": "Hypoestes phyllostachya",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "hyssopus-officinalis",
+    "name": "Hyssopus officinalis",
+    "colors": ["blue", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "iberis-sempervirens",
+    "name": "Iberis sempervirens",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "impatiens-balsamina",
+    "name": "Impatiens balsamina",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "impatiens-walleriana",
+    "name": "Impatiens walleriana",
+    "colors": ["red", "orange", "violet", "white", "pink", "other"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "ipomoea-alba",
+    "name": "Ipomoea alba",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "ipomoea-purpurea",
+    "name": "Ipomoea purpurea",
+    "colors": ["red", "blue", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "iris-cristata",
+    "name": "Iris cristata",
+    "colors": ["yellow", "blue", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "iris-danfordiae",
+    "name": "Iris danfordiae",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "iris-ensata",
+    "name": "Iris ensata",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "iris-pseudoacorus",
+    "name": "Iris pseudoacorus",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "iris-reticulata",
+    "name": "Iris reticulata",
+    "colors": ["blue", "indigo", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "iris-sp.-intermediate-bearded-cultivars",
+    "name": "Iris sp. Intermediate Bearded cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "iris-sp.-siberian-cultivars",
+    "name": "Iris sp. Siberian cultivars",
+    "colors": ["red", "orange", "yellow", "blue", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "lablab-purpureus",
+    "name": "Lablab purpureus",
+    "colors": ["violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "lamiastrum-galeobdolon",
+    "name": "Lamiastrum galeobdolon",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "lantana-camara",
+    "name": "Lantana camara",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "lavandula-angustifolia",
+    "name": "Lavandula angustifolia",
+    "colors": ["violet", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "leucojum-aestivum",
+    "name": "Leucojum aestivum",
+    "colors": ["green", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "leucojum-vernum",
+    "name": "Leucojum vernum",
+    "colors": ["green", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "limonium-latifolium",
+    "name": "Limonium latifolium",
+    "colors": ["blue", "violet", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "limonium-sinuatum",
+    "name": "Limonium sinuatum",
+    "colors": ["orange", "yellow", "blue", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "linum-perenne",
+    "name": "Linum perenne",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "liriope-spicata",
+    "name": "Liriope spicata",
+    "colors": ["violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9, 10],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "lobelia-cardinalis",
+    "name": "Lobelia cardinalis",
+    "colors": ["red", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [2, 3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "lobelia-erinus",
+    "name": "Lobelia erinus",
+    "colors": ["red", "blue", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "lobelia-siphilitica",
+    "name": "Lobelia siphilitica",
+    "colors": ["blue", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "lobularia-maritima",
+    "name": "Lobularia maritima",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "lysimachia-clethroides",
+    "name": "Lysimachia clethroides",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "lysimachia-punctata",
+    "name": "Lysimachia punctata",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "lythrum-salicaria",
+    "name": "Lythrum salicaria",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "macleaya-cordata",
+    "name": "Macleaya cordata",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "mazus-reptans",
+    "name": "Mazus reptans",
+    "colors": ["blue", "violet"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "melissa-officinalis",
+    "name": "Melissa officinalis",
+    "colors": ["yellow", "white", "inconspicuous"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "mertensia-virginica",
+    "name": "Mertensia virginica",
+    "colors": ["blue", "violet"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "mirabilis-jalapa",
+    "name": "Mirabilis jalapa",
+    "colors": ["red", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "monardra-didyma",
+    "name": "Monardra didyma",
+    "colors": ["red", "blue", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "muscari-armeniacum",
+    "name": "Muscari armeniacum",
+    "colors": ["blue", "indigo"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "myrrhis-odorata",
+    "name": "Myrrhis odorata",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "narcissus-bulbocodium",
+    "name": "Narcissus bulbocodium",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "narcissus-sp-cyclamineus-cultivars",
+    "name": "Narcissus sp Cyclamineus cultivars",
+    "colors": ["red", "orange", "yellow", "green", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "narcissus-sp.-double-flowered-cultivars",
+    "name": "Narcissus sp. double flowered cultivars",
+    "colors": ["red", "orange", "yellow", "green", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "narcissus-sp.-jonquilla-cultivars",
+    "name": "Narcissus sp. Jonquilla cultivars",
+    "colors": ["red", "orange", "yellow", "green", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "narcissus-sp.-poeticus-cultivars",
+    "name": "Narcissus sp. Poeticus cultivars",
+    "colors": ["yellow", "green", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "narcissus-sp.-tazetta-cultivars",
+    "name": "Narcissus sp. Tazetta cultivars",
+    "colors": ["orange", "yellow", "white"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "narcissus-sp.-trumpet-flowered-cultivars",
+    "name": "Narcissus sp. Trumpet-flowered cultivars",
+    "colors": ["red", "orange", "yellow", "green", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "nepeta-x-faassenii",
+    "name": "Nepeta x faassenii",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "nicotiana-alata",
+    "name": "Nicotiana alata",
+    "colors": ["red", "yellow", "green", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "nierembergia-caerula",
+    "name": "Nierembergia caerula",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "osteospermum-ecklonis",
+    "name": "Osteospermum ecklonis",
+    "colors": ["yellow", "blue", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "papaver-rhoeas",
+    "name": "Papaver rhoeas",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "pelargonium-x-hortorum",
+    "name": "Pelargonium x hortorum",
+    "colors": ["red", "orange", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "pennisetum-setaceum",
+    "name": "Pennisetum setaceum",
+    "colors": ["violet", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "persicaria-orientalis",
+    "name": "Persicaria orientalis",
+    "colors": ["red", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "petunia-x-hybrida-wave",
+    "name": "Petunia x hybrida WAVE",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "platycodon-grandiflorus",
+    "name": "Platycodon grandiflorus",
+    "colors": ["blue", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "polemonium-caeruleum",
+    "name": "Polemonium caeruleum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "polygonatum-biflorum",
+    "name": "Polygonatum biflorum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "polygonatum-commutatum",
+    "name": "Polygonatum commutatum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "portulaca-grandiflora",
+    "name": "Portulaca grandiflora",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "primula-denticulata",
+    "name": "Primula denticulata",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 5,
+      "endWeek": 6
+    }
+  },
+  {
+    "id": "primula-x-polyantha",
+    "name": "Primula x polyantha",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "blue",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "ranunculus-repens",
+    "name": "Ranunculus repens",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "ricinus-communis",
+    "name": "Ricinus communis",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "rudbeckia-hirta",
+    "name": "Rudbeckia hirta",
+    "colors": ["red", "orange", "yellow", "other"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "ruta-graveolens",
+    "name": "Ruta graveolens",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "salvia-farinacea",
+    "name": "Salvia farinacea",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "salvia-splendens",
+    "name": "Salvia splendens",
+    "colors": ["red", "violet", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "salvia-sclarea",
+    "name": "Salvia sclarea",
+    "colors": ["violet", "white"],
+    "lifecycle": "",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "salvia-viridis",
+    "name": "Salvia viridis",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "sanguinaria-canadensis",
+    "name": "Sanguinaria canadensis",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "santolina-chamaecyperissus",
+    "name": "Santolina chamaecyperissus",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "sanvitalia-procumbens",
+    "name": "Sanvitalia procumbens",
+    "colors": ["orange", "yellow"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "saponaria-ocymoides",
+    "name": "Saponaria ocymoides",
+    "colors": ["red", "pink"],
+    "lifecycle": "perennial",
+    "zones": [2, 3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "satureja-hortensis",
+    "name": "Satureja hortensis",
+    "colors": ["violet", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "scabiosa-atropurpurea",
+    "name": "Scabiosa atropurpurea",
+    "colors": ["red", "yellow", "blue", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "senecio-cineraria",
+    "name": "Senecio cineraria",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 20,
+      "peakStartWeek": 21,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "sidalcea-malviflora",
+    "name": "Sidalcea malviflora",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "solenostemon-scutellarioides",
+    "name": "Solenostemon scutellarioides",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "smilacina-racemosa",
+    "name": "Smilacina racemosa",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "stokesia-laevis",
+    "name": "Stokesia laevis",
+    "colors": ["blue", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "symphytum-officinale",
+    "name": "Symphytum officinale",
+    "colors": ["yellow", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "symplocarpus-foetidus",
+    "name": "Symplocarpus foetidus",
+    "colors": ["red", "yellow", "green"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tagetes-erecta",
+    "name": "Tagetes erecta",
+    "colors": ["orange", "yellow"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "tagetes-patula",
+    "name": "Tagetes patula",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "tanacetum-coccineum",
+    "name": "Tanacetum coccineum",
+    "colors": ["red", "yellow", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "tanacetum-vulgare",
+    "name": "Tanacetum vulgare",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "thalictrum-aquilegifolium",
+    "name": "Thalictrum aquilegifolium",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 12,
+      "endWeek": 13
+    }
+  },
+  {
+    "id": "thalictrum-rochebruneanum",
+    "name": "Thalictrum rochebruneanum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "thermopsis-villosa",
+    "name": "Thermopsis villosa",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 18,
+      "endWeek": 19
+    }
+  },
+  {
+    "id": "thunbergia-alata",
+    "name": "Thunbergia alata",
+    "colors": ["orange", "yellow", "white"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "tithonia-rotundifolia",
+    "name": "Tithonia rotundifolia",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "torenia-fournieri",
+    "name": "Torenia fournieri",
+    "colors": ["yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "trillium-grandiflorum",
+    "name": "Trillium grandiflorum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tropaeolum-majus",
+    "name": "Tropaeolum majus",
+    "colors": ["red", "orange", "yellow"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "tropaeolum-peregrinum",
+    "name": "Tropaeolum peregrinum",
+    "colors": [],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 9,
+      "peakStartWeek": 10,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "tulipa-acuminata",
+    "name": "Tulipa acuminata",
+    "colors": ["red", "yellow", "green"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tulipa-batalinii",
+    "name": "Tulipa batalinii",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tulipa-humilis",
+    "name": "Tulipa humilis",
+    "colors": ["violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 5,
+      "endWeek": 6
+    }
+  },
+  {
+    "id": "tulipa-saxatilis",
+    "name": "Tulipa saxatilis",
+    "colors": ["yellow", "violet", "white", "pink"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "tulipa-sp.-darwin-cultivars",
+    "name": "Tulipa sp. Darwin cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "tulipa-sp.-double-early-flowering-cultivars",
+    "name": "Tulipa sp. double-early flowering cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tulipa-sp.-fringe-flowered-cultivars",
+    "name": "Tulipa sp. fringe flowered cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tulipa-sp.-greigii-cultivars",
+    "name": "Tulipa sp. Greigii cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 5,
+      "endWeek": 6
+    }
+  },
+  {
+    "id": "tulipa-sp.-kaufmanniana-cultivars",
+    "name": "Tulipa sp. Kaufmanniana cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 5,
+      "endWeek": 6
+    }
+  },
+  {
+    "id": "tulipa-sp.-lily-flowered-cultivars",
+    "name": "Tulipa sp. lily flowered cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tulipa-sp.-parrot-cultivars",
+    "name": "Tulipa sp. parrot cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "tulipa-sp.-peony-flowered-double-late-cultivars",
+    "name": "Tulipa sp. peony flowered, double late cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tulipa-sp.-single-flowered-late-cottage-cultivars",
+    "name": "Tulipa sp. single flowered late, cottage cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": null,
+      "peakStartWeek": null,
+      "peakEndWeek": null,
+      "endWeek": null
+    }
+  },
+  {
+    "id": "tulipa-sp.-triumph-cultivars",
+    "name": "Tulipa sp. Triumph cultivars",
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "indigo",
+      "violet",
+      "white",
+      "pink"
+    ],
+    "lifecycle": "perennial",
+    "zones": [4, 5, 6, 7],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "verbena-x.-hybrida-upright",
+    "name": "Verbena x. hybrida upright",
+    "colors": ["red", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "veronicastrum-virginicum",
+    "name": "Veronicastrum virginicum",
+    "colors": [],
+    "lifecycle": "perennial",
+    "zones": [3, 4, 5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 23,
+      "endWeek": 24
+    }
+  },
+  {
+    "id": "viola-cornuta",
+    "name": "Viola cornuta",
+    "colors": ["yellow", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [6, 7, 8, 9],
+    "bloomPeriod": {
+      "startWeek": 7,
+      "peakStartWeek": 8,
+      "peakEndWeek": 25,
+      "endWeek": 26
+    }
+  },
+  {
+    "id": "viola-odorata",
+    "name": "Viola odorata",
+    "colors": ["blue", "violet", "white"],
+    "lifecycle": "perennial",
+    "zones": [5, 6, 7, 8],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "viola-tricolor",
+    "name": "Viola tricolor",
+    "colors": ["yellow", "blue", "violet"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "viola-x-wittrockiana",
+    "name": "Viola x wittrockiana",
+    "colors": ["red", "orange", "yellow", "blue", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 2,
+      "peakStartWeek": 3,
+      "peakEndWeek": 10,
+      "endWeek": 11
+    }
+  },
+  {
+    "id": "zinnia-elegans-(edging-cultivars)",
+    "name": "Zinnia elegans (edging cultivars)",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  },
+  {
+    "id": "zinnia-elegans-(medium-height)",
+    "name": "Zinnia elegans (medium height)",
+    "colors": ["red", "orange", "yellow", "violet", "white", "pink"],
+    "lifecycle": "annual",
+    "zones": [],
+    "bloomPeriod": {
+      "startWeek": 15,
+      "peakStartWeek": 16,
+      "peakEndWeek": 27,
+      "endWeek": 28
+    }
+  }
+]

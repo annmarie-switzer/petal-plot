@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Sun, Moon } from '../icons';
+import { Moon, Sun } from '../icons';
 
 export const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
@@ -9,7 +9,7 @@ export const ThemeToggle = () => {
   }, [isDark]);
 
   return (
-    <button onClick={() => setIsDark(!isDark)}>
+    <button id="theme-toggle" onClick={() => setIsDark(!isDark)}>
       {isDark ? <Sun /> : <Moon />}
     </button>
   );

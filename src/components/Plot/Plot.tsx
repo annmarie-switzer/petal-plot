@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './Plot.css';
 
 export const Plot = () => {
   const DIMENSIONS = {

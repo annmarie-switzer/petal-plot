@@ -2,13 +2,16 @@ import { useEffect } from 'react';
 import {
   BrowserRouter,
   Navigate,
+  NavLink,
+  Outlet,
   Route,
   Routes,
   useLocation,
   useParams,
 } from 'react-router';
-import { Plot } from './components/Plot';
 import { Drawer, DrawerPosition } from './components/Drawer/Drawer';
+import { Plot } from './components/Plot/Plot';
+import { ThemeToggle } from './components/ThemeToggle';
 import { usePlots } from './PlotContext';
 
 export const RouteTracker = () => {
@@ -42,6 +45,25 @@ export const RedirectToValidRoute = () => {
   return <Navigate to="/new" replace />;
 };
 
+export const Layout = () => {
+  const { plots } = usePlots();
+
+  return (
+    <>
+      <nav>
+        {Object.entries(plots).map(([id, plot]) => (
+          <NavLink to={`/${id}`}>{plot.name}</NavLink>
+        ))}
+        <NavLink to={`/new`}>New</NavLink>
+        <ThemeToggle />
+      </nav>
+      <main>
+        <Outlet />
+      </main>
+    </>
+  );
+};
+
 export const NewPlotPage = () => {
   return <h1>New Plot</h1>;
 };
@@ -60,7 +82,7 @@ export const PlotPage = () => {
       <Plot />
       <Drawer
         defaultPosition={
-          (localStorage.getItem('drawerPosition') as DrawerPosition) || 'left'
+          (localStorage.getItem('drawerPosition') as DrawerPosition) || 'bottom'
         }
       />
     </>
@@ -72,11 +94,13 @@ export const PlotRouter = () => {
     <BrowserRouter>
       <RouteTracker />
       <Routes>
-        <Route index element={<RedirectToValidRoute />} />
-        <Route path=":id" element={<PlotPage />} />
-        <Route path="/new" element={<NewPlotPage />} />
-        <Route path="/404" element={<h1>404</h1>} />
-        <Route path="*" element={<Navigate to="/404" replace />} />
+        <Route element={<Layout />}>
+          <Route index element={<RedirectToValidRoute />} />
+          <Route path=":id" element={<PlotPage />} />
+          <Route path="/new" element={<NewPlotPage />} />
+          <Route path="/404" element={<h1>404</h1>} />
+          <Route path="*" element={<Navigate to="/404" replace />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

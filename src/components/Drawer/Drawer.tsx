@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react';
-import { ThemeToggle } from '../ThemeToggle';
+import { useEffect, useState } from 'react';
 import './Drawer.css';
 
 export type DrawerPosition = 'left' | 'bottom';
@@ -76,7 +75,6 @@ export const Drawer = ({ defaultPosition }: DrawerProps) => {
       <div className={`drag-tab ${position}`} onMouseDown={handleDragStart} />
       <div className="drawer-content">
         <button onClick={changePosition}>Change Position</button>
-        <ThemeToggle />
       </div>
     </div>
   );
