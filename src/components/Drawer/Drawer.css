@@ -1,36 +1,39 @@
 :root {
-  --handle-size: 3px;
+  --handle-size: 2px;
   --tab-small: 15px;
   --tab-large: 60px;
   --tab-radius: 4px;
+  --min-size: 20px;
 }
 
 .drawer {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: var(--sand-2);
+  background-color: var(--sand-1);
   border-radius: 8px;
 
-  &.left {
+  &.right {
     height: 100%;
     top: 0;
+    min-width: var(--min-size);
   }
 
   &.bottom {
     width: 100%;
     left: 0;
+    min-height: var(--min-size);
   }
 }
 
 .drag-handle {
-  background-color: var(--sand-6);
+  background-color: var(--sand-8);
   user-select: none;
   position: absolute;
   left: 0;
   top: 0;
 
-  &.left {
+  &.right {
     width: var(--handle-size);
     height: 100%;
     cursor: col-resize;
@@ -40,43 +43,6 @@
     width: 100%;
     height: var(--handle-size);
     cursor: row-resize;
-  }
-
-  &:hover {
-    background-color: var(--sand-7);
-  }
-}
-
-.drag-tab {
-  position: absolute;
-  background-color: var(--sand-6);
-  cursor: grab;
-  user-select: none;
-
-  &.left {
-    left: calc(var(--tab-small) / -1);
-    top: 50%;
-    transform: translateY(-50%);
-    width: var(--tab-small);
-    height: var(--tab-large);
-    border-radius: var(--tab-radius) 0 0 var(--tab-radius);
-  }
-
-  &.bottom {
-    top: calc(var(--tab-small) / -1);
-    left: 50%;
-    transform: translateX(-50%);
-    width: var(--tab-large);
-    height: var(--tab-small);
-    border-radius: var(--tab-radius) var(--tab-radius) 0 0;
-  }
-
-  &:hover {
-    background-color: var(--sand-7);
-  }
-
-  &:active {
-    cursor: grabbing;
   }
 }
 

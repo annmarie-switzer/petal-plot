@@ -1,7 +1,8 @@
+import { ViewHorizontalIcon, ViewVerticalIcon } from '@radix-ui/react-icons';
 import { useEffect, useState } from 'react';
 import './Drawer.css';
 
-export type DrawerPosition = 'left' | 'bottom';
+export type DrawerPosition = 'right' | 'bottom';
 
 interface DrawerProps {
   defaultPosition: DrawerPosition;
@@ -20,11 +21,11 @@ export const Drawer = ({ defaultPosition }: DrawerProps) => {
   // We need document level listeneers otherwise when the mouse leaves the element bounds,dragging would stop
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      const clientValue = position === 'left' ? e.clientX : e.clientY;
+      const clientValue = position === 'right' ? e.clientX : e.clientY;
       // Calculate how far we've moved from the start position
       const delta = startPosition - clientValue;
       // Update the appropriate dimension based on position
-      if (position === 'left') {
+      if (position === 'right') {
         setWidth(startDimension + delta);
       } else {
         setHeight(startDimension + delta);
@@ -46,22 +47,22 @@ export const Drawer = ({ defaultPosition }: DrawerProps) => {
     const target = e.target as HTMLDivElement;
 
     setIsDragging(true);
-    setStartPosition(position === 'left' ? e.clientX : e.clientY);
+    setStartPosition(position === 'right' ? e.clientX : e.clientY);
     setStartDimension(
-      position === 'left'
+      position === 'right'
         ? target.parentElement!.clientWidth
         : target.parentElement!.clientHeight
     );
   };
 
   const changePosition = () => {
-    const newPosition = position === 'left' ? 'bottom' : 'left';
+    const newPosition = position === 'right' ? 'bottom' : 'right';
 
     localStorage.setItem('drawerPosition', newPosition);
     setPosition(newPosition);
   };
 
-  const drawerStyle = position === 'left' ? { width } : { height };
+  const drawerStyle = position === 'right' ? { width } : { height };
 
   return (
     <div
@@ -72,9 +73,10 @@ export const Drawer = ({ defaultPosition }: DrawerProps) => {
         className={`drag-handle ${position}`}
         onMouseDown={handleDragStart}
       />
-      <div className={`drag-tab ${position}`} onMouseDown={handleDragStart} />
       <div className="drawer-content">
-        <button onClick={changePosition}>Change Position</button>
+        <button type="button" onClick={changePosition}>
+          {position === 'right' ? <ViewHorizontalIcon /> : <ViewVerticalIcon />}
+        </button>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
+import { MoonIcon, SunIcon } from '@radix-ui/react-icons';
 import { useEffect, useState } from 'react';
-import { Moon, Sun } from '../icons';
 
 export const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
@@ -10,7 +10,7 @@ export const ThemeToggle = () => {
 
   return (
     <button id="theme-toggle" onClick={() => setIsDark(!isDark)}>
-      {isDark ? <Sun /> : <Moon />}
+      {isDark ? <SunIcon /> : <MoonIcon />}
     </button>
   );
 };

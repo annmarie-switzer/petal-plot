@@ -54,7 +54,7 @@ export const Layout = () => {
         {Object.entries(plots).map(([id, plot]) => (
           <NavLink to={`/${id}`}>{plot.name}</NavLink>
         ))}
-        <NavLink to={`/new`}>New</NavLink>
+        <NavLink to={`/new`}>New Plot</NavLink>
         <ThemeToggle />
       </nav>
       <main>
