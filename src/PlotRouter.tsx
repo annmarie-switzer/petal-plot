@@ -51,6 +51,7 @@ export const Layout = () => {
   return (
     <>
       <nav>
+        <h1>Petal Plot</h1>
         {Object.entries(plots).map(([id, plot]) => (
           <NavLink to={`/${id}`}>{plot.name}</NavLink>
         ))}
@@ -78,7 +79,6 @@ export const PlotPage = () => {
 
   return (
     <>
-      <h1>{plot.name}</h1>
       <Plot />
       <Drawer
         defaultPosition={

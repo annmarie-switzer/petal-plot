@@ -1,6 +1,18 @@
 import { useState } from 'react';
 import './Plot.css';
 
+const COLORS = [
+  'var(--red-9)',
+  'var(--orange-9)',
+  'var(--yellow-9)',
+  'var(--green-9)',
+  'var(--indigo-9)',
+  'var(--blue-9)',
+  'var(--violet-9)',
+  'var(--pink-9)',
+  'var(--sand-1)',
+];
+
 export const Plot = () => {
   const DIMENSIONS = {
     width: 32,
@@ -19,20 +31,20 @@ export const Plot = () => {
   const squares = Array.from({ length: width * height }, (_, i) => i);
 
   const [isDragging, setIsDragging] = useState(false);
-  const [selectedSquares, setSelectedSquares] = useState<Set<number>>(
-    new Set()
+  const [selectedSquares, setSelectedSquares] = useState<Map<number, string>>(
+    new Map()
   );
 
   const handleSquareClick = (squareId: number, shiftKey: boolean) => {
     if (!shiftKey) {
-      setSelectedSquares(new Set([squareId]));
+      setSelectedSquares(new Map([[squareId, COLORS[Math.floor(Math.random() * COLORS.length)]]]));
     } else {
       setSelectedSquares((prev) => {
-        const newSelection = new Set(prev);
+        const newSelection = new Map(prev);
         if (newSelection.has(squareId)) {
           newSelection.delete(squareId);
         } else {
-          newSelection.add(squareId);
+          newSelection.set(squareId, COLORS[Math.floor(Math.random() * COLORS.length)]);
         }
         return newSelection;
       });
@@ -42,8 +54,10 @@ export const Plot = () => {
   const handleMouseMove = (squareId: number, shiftKey: boolean) => {
     if (isDragging && shiftKey) {
       setSelectedSquares((prev) => {
-        const newSelection = new Set(prev);
-        newSelection.add(squareId);
+        const newSelection = new Map(prev);
+        if (!newSelection.has(squareId)) {
+          newSelection.set(squareId, COLORS[Math.floor(Math.random() * COLORS.length)]);
+        }
         return newSelection;
       });
     }
@@ -72,12 +86,8 @@ export const Plot = () => {
             y={y}
             width={CELL_SIZE}
             height={CELL_SIZE}
-            className={
-              selectedSquares.has(square) ? 'square selected' : 'square'
-            }
-            // style={{
-            //   fill: plot[square]?.color,
-            // }}
+            className="square"
+            style={{ fill: selectedSquares.get(square) }}
             onClick={(e) => handleSquareClick(square, e.shiftKey)}
             onMouseDown={(e) => setIsDragging(e.shiftKey)}
             onMouseMove={(e) => handleMouseMove(square, e.shiftKey)}
