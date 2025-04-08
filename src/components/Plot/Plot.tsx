@@ -4,13 +4,12 @@ import './Plot.css';
 const COLORS = [
   'var(--red-9)',
   'var(--orange-9)',
-  'var(--yellow-9)',
-  'var(--green-9)',
-  'var(--indigo-9)',
+  'var(--amber-9)',
+  'var(--grass-9)',
   'var(--blue-9)',
   'var(--violet-9)',
   'var(--pink-9)',
-  'var(--sand-1)',
+  'var(--white)',
 ];
 
 export const Plot = () => {
@@ -37,14 +36,19 @@ export const Plot = () => {
 
   const handleSquareClick = (squareId: number, shiftKey: boolean) => {
     if (!shiftKey) {
-      setSelectedSquares(new Map([[squareId, COLORS[Math.floor(Math.random() * COLORS.length)]]]));
+      setSelectedSquares(
+        new Map([[squareId, COLORS[Math.floor(Math.random() * COLORS.length)]]])
+      );
     } else {
       setSelectedSquares((prev) => {
         const newSelection = new Map(prev);
         if (newSelection.has(squareId)) {
           newSelection.delete(squareId);
         } else {
-          newSelection.set(squareId, COLORS[Math.floor(Math.random() * COLORS.length)]);
+          newSelection.set(
+            squareId,
+            COLORS[Math.floor(Math.random() * COLORS.length)]
+          );
         }
         return newSelection;
       });
@@ -56,7 +60,10 @@ export const Plot = () => {
       setSelectedSquares((prev) => {
         const newSelection = new Map(prev);
         if (!newSelection.has(squareId)) {
-          newSelection.set(squareId, COLORS[Math.floor(Math.random() * COLORS.length)]);
+          newSelection.set(
+            squareId,
+            COLORS[Math.floor(Math.random() * COLORS.length)]
+          );
         }
         return newSelection;
       });

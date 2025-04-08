@@ -4,29 +4,29 @@
 @import '@radix-ui/colors/sand-dark-alpha.css';
 @import '@radix-ui/colors/red.css';
 @import '@radix-ui/colors/red-dark.css';
-@import '@radix-ui/colors/pink.css';
-@import '@radix-ui/colors/pink-dark.css';
-@import '@radix-ui/colors/violet.css';
-@import '@radix-ui/colors/violet-dark.css';
-@import '@radix-ui/colors/indigo.css';
-@import '@radix-ui/colors/indigo-dark.css';
-@import '@radix-ui/colors/blue.css';
-@import '@radix-ui/colors/blue-dark.css';
-@import '@radix-ui/colors/green.css';
-@import '@radix-ui/colors/green-dark.css';
 @import '@radix-ui/colors/orange.css';
 @import '@radix-ui/colors/orange-dark.css';
-@import '@radix-ui/colors/yellow.css';
-@import '@radix-ui/colors/yellow-dark.css';
+@import '@radix-ui/colors/amber.css';
+@import '@radix-ui/colors/amber-dark.css';
+@import '@radix-ui/colors/grass.css';
+@import '@radix-ui/colors/grass-dark.css';
+@import '@radix-ui/colors/blue.css';
+@import '@radix-ui/colors/blue-dark.css';
+@import '@radix-ui/colors/violet.css';
+@import '@radix-ui/colors/violet-dark.css';
+@import '@radix-ui/colors/pink.css';
+@import '@radix-ui/colors/pink-dark.css';
 
 :root {
   --active-page: var(--sand-1);
   --shadow: var(--sand-a4);
+  --white: var(--sand-1);
 }
 
 .dark {
   --active-page: var(--sand-1);
   --shadow: var(--sand-a4);
+  --white: var(--sand-12);
 }
 
 *,
@@ -102,8 +102,8 @@ nav {
     background: linear-gradient(
       90deg,
       var(--grass-9) 0%,
-      var(--cyan-9) 25%,
-      var(--plum-9) 50%,
+      var(--blue-9) 25%,
+      var(--violet-9) 50%,
       var(--pink-9) 75%,
       var(--grass-9) 100%
     );
