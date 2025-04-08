@@ -50,14 +50,16 @@ export const Layout = () => {
 
   return (
     <>
-      <nav>
+      <div id="navbar">
         <h1>Petal Plot</h1>
-        {Object.entries(plots).map(([id, plot]) => (
-          <NavLink to={`/${id}`}>{plot.name}</NavLink>
-        ))}
-        <NavLink to={`/new`}>New Plot</NavLink>
+        <nav>
+          {Object.entries(plots).map(([id, plot]) => (
+            <NavLink to={`/${id}`}>{plot.name}</NavLink>
+          ))}
+          <NavLink to={`/new`}>New Plot</NavLink>
+        </nav>
         <ThemeToggle />
-      </nav>
+      </div>
       <main>
         <Outlet />
       </main>

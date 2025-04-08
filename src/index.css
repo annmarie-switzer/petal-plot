@@ -91,14 +91,12 @@ button {
   flex-direction: column;
 }
 
-nav {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  align-items: flex-end;
-  gap: 2px;
+#navbar {
+  display: flex;
+  gap: 4px;
+  padding: 0 8px;
 
   h1 {
-    padding: 8px 16px;
     background: linear-gradient(
       90deg,
       var(--grass-9) 0%,
@@ -114,41 +112,50 @@ nav {
     animation: shimmer 6s linear infinite;
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
-    font-family: inherit;
-    text-align: center;
-    padding: 6px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border: solid 2px transparent;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    z-index: 1;
-    transition: all 0.2s ease-out;
+  nav {
+    margin: 0 32px;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+    align-items: flex-end;
+    gap: 2px;
 
-    &:hover {
-      padding-bottom: 10px;
-      background-color: var(--sand-4);
-    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      font-family: inherit;
+      text-align: center;
+      padding: 6px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border: solid 2px transparent;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      z-index: 1;
+      transition: all 0.2s ease-out;
 
-    &.active {
-      padding-bottom: 10px;
-      background-color: var(--active-page);
-      box-shadow: -8px 0 8px -8px var(--shadow), 0 -8px 8px -8px var(--shadow),
-        8px 0 8px -8px var(--shadow);
-    }
+      &:hover {
+        padding-bottom: 10px;
+        background-color: var(--sand-4);
+      }
 
-    &:last-of-type {
-      grid-column: -2;
+      &.active {
+        padding-bottom: 10px;
+        background-color: var(--active-page);
+        box-shadow: -8px 0 8px -8px var(--shadow), 0 -8px 8px -8px var(--shadow),
+          8px 0 8px -8px var(--shadow);
+      }
+
+      &:last-of-type {
+        grid-column: -2;
+      }
     }
   }
 
   #theme-toggle {
-    grid-column: -1;
     aspect-ratio: 1;
+    align-self: center;
   }
 }
 

@@ -80,7 +80,7 @@
   {
     "id": "ajuga-reptans",
     "name": "Ajuga reptans",
-    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "colors": ["blue", "violet", "white", "pink"],
     "lifecycle": "perennial",
     "zones": [3, 4, 5, 6, 7, 8, 9],
     "bloomPeriod": {
@@ -288,7 +288,7 @@
   {
     "id": "anemone-blanda",
     "name": "Anemone blanda",
-    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "colors": ["blue", "violet", "white", "pink"],
     "lifecycle": "perennial",
     "zones": [4, 5, 6, 7, 8],
     "bloomPeriod": {
@@ -561,7 +561,7 @@
   {
     "id": "aster-alpinus",
     "name": "Aster alpinus",
-    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "colors": ["blue", "violet", "white", "pink"],
     "lifecycle": "perennial",
     "zones": [4, 5, 6, 7],
     "bloomPeriod": {
@@ -574,7 +574,7 @@
   {
     "id": "aster-novi-angliae",
     "name": "Aster novi-angliae",
-    "colors": ["red", "blue", "indigo", "violet", "white", "pink"],
+    "colors": ["red", "blue", "violet", "white", "pink"],
     "lifecycle": "perennial",
     "zones": [4, 5, 6, 7, 8],
     "bloomPeriod": {
@@ -587,7 +587,7 @@
   {
     "id": "aster-novi-belgi-tall-varieties",
     "name": "Aster novi-belgi tall varieties",
-    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "colors": ["blue", "violet", "white", "pink"],
     "lifecycle": "perennial",
     "zones": [4, 5, 6, 7, 8],
     "bloomPeriod": {
@@ -678,7 +678,7 @@
   {
     "id": "baptisia-australis",
     "name": "Baptisia australis",
-    "colors": ["blue", "indigo"],
+    "colors": ["blue", "violet"],
     "lifecycle": "perennial",
     "zones": [3, 4, 5, 6, 7, 8, 9],
     "bloomPeriod": {
@@ -912,7 +912,7 @@
   {
     "id": "campanula-poscharskyana",
     "name": "Campanula poscharskyana",
-    "colors": ["blue", "indigo", "violet"],
+    "colors": ["blue", "violet"],
     "lifecycle": "perennial",
     "zones": [4, 5, 6, 7],
     "bloomPeriod": {
@@ -1276,7 +1276,7 @@
   {
     "id": "delphinium-sp.-belladonna-group",
     "name": "Delphinium sp. Belladonna Group",
-    "colors": ["blue", "indigo", "violet", "white"],
+    "colors": ["blue", "violet", "white"],
     "lifecycle": "perennial",
     "zones": [3, 4, 5, 6, 7],
     "bloomPeriod": {
@@ -1289,7 +1289,7 @@
   {
     "id": "delphinium-sp.-elatum-group",
     "name": "Delphinium sp. Elatum Group",
-    "colors": ["blue", "indigo", "violet", "white", "pink"],
+    "colors": ["blue", "violet", "white", "pink"],
     "lifecycle": "perennial",
     "zones": [3, 4, 5, 6, 7],
     "bloomPeriod": {
@@ -1510,7 +1510,7 @@
   {
     "id": "erigeron-speciosus",
     "name": "Erigeron speciosus",
-    "colors": ["orange", "yellow", "blue", "indigo", "violet", "white", "pink"],
+    "colors": ["orange", "yellow", "blue", "violet", "white", "pink"],
     "lifecycle": "perennial",
     "zones": [2, 3, 4, 5, 6, 7, 8],
     "bloomPeriod": {
@@ -1744,7 +1744,7 @@
   {
     "id": "geranium-himalayense",
     "name": "Geranium himalayense",
-    "colors": ["blue", "indigo", "violet"],
+    "colors": ["blue", "violet"],
     "lifecycle": "perennial",
     "zones": [4, 5, 6, 7, 8],
     "bloomPeriod": {
@@ -2082,7 +2082,7 @@
   {
     "id": "iris-reticulata",
     "name": "Iris reticulata",
-    "colors": ["blue", "indigo", "violet", "white"],
+    "colors": ["blue", "violet", "white"],
     "lifecycle": "perennial",
     "zones": [5, 6, 7, 8],
     "bloomPeriod": {
@@ -2429,7 +2429,7 @@
   {
     "id": "muscari-armeniacum",
     "name": "Muscari armeniacum",
-    "colors": ["blue", "indigo"],
+    "colors": ["blue", "violet"],
     "lifecycle": "perennial",
     "zones": [4, 5, 6, 7, 8],
     "bloomPeriod": {
@@ -2746,7 +2746,6 @@
       "orange",
       "yellow",
       "blue",
-      "indigo",
       "violet",
       "white",
       "pink"
@@ -3262,7 +3261,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3284,7 +3283,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3306,7 +3305,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3328,7 +3327,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3350,7 +3349,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3372,7 +3371,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3394,7 +3393,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3416,7 +3415,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3438,7 +3437,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"
@@ -3460,7 +3459,7 @@
       "orange",
       "yellow",
       "green",
-      "indigo",
+      "blue",
       "violet",
       "white",
       "pink"

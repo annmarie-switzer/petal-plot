@@ -27,7 +27,6 @@ export enum FlowerColor {
   Yellow = 'yellow',
   Green = 'green',
   Blue = 'blue',
-  Indigo = 'indigo',
   Violet = 'violet',
   White = 'white',
   Pink = 'pink',
