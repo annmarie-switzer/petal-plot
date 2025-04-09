@@ -3,7 +3,6 @@ export interface Plot {
   name: string;
   width: number;
   height: number;
-  numSquares: number;
   plants: Record<number, Plant>;
 }
 

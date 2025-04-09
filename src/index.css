@@ -74,14 +74,14 @@ button {
   align-items: center;
   justify-content: center;
   color: inherit;
-  background-color: var(--sand-3);
+  background-color: transparent;
 
   &:hover {
-    background-color: var(--sand-4);
+    background-color: var(--sand-5);
   }
 
   &:active {
-    background-color: var(--sand-5);
+    background-color: var(--sand-6);
   }
 }
 
@@ -115,29 +115,47 @@ button {
   nav {
     margin: 0 32px;
     flex: 1;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+    display: flex;
     align-items: flex-end;
     gap: 2px;
+    overflow: hidden;
 
     a {
+      max-width: 125px;
+      flex: 1 1 125px;
       color: inherit;
       text-decoration: none;
       font-family: inherit;
-      text-align: center;
-      padding: 6px;
+      padding: 6px 6px 6px 8px;
       border-top-left-radius: 8px;
       border-top-right-radius: 8px;
       border: solid 2px transparent;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
       z-index: 1;
       transition: all 0.2s ease-out;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      span {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+        min-width: 0;
+      }
+
+      button {
+        display: none;
+        padding: 2px;
+      }
 
       &:hover {
         padding-bottom: 10px;
         background-color: var(--sand-4);
+
+        button {
+          display: inline-flex;
+        }
       }
 
       &.active {
@@ -148,7 +166,8 @@ button {
       }
 
       &:last-of-type {
-        grid-column: -2;
+        flex: 0 0 125px;
+        margin-left: auto;
       }
     }
   }
